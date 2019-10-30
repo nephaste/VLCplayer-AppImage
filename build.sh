@@ -5,12 +5,12 @@ VERSION="3.0.8"
 #echo "deb http://in.archive.ubuntu.com/ubuntu/ xenial main" | tee /etc/apt/sources.list.d/xenial.list
 apt-get update
 apt-get --yes install python-software-properties software-properties-common
-add-apt-repository ppa:jonathonf/ffmpeg-4
+add-apt-repository ppa:jonathonf/ffmpeg-4 --yes
 add-apt-repository universe --yes
 apt-get update
 apt-get --yes dist-upgrade
-apt-get --yes install libsystemd-dev libarchive-dev curl build-essential autoconf libtool pkg-config patchelf libtasn1-3-dev libtasn1-3-bin libbsd-dev git bison qtbase5-private-dev libqt5svg5-dev automake autopoint gettext cmake wayland-protocols protobuf-compiler libmpg123-dev libgstreamer-plugins-base1.0-dev libsystemd-dev libarchive-dev libopencv-dev libavcodec-dev libavutil-dev libva-dev
-#apt-get build-dep vlc --yes
+apt-get --yes install libsystemd-dev libarchive-dev curl build-essential autoconf libtool pkg-config patchelf  libtasn1-3-bin libbsd-dev git bison qtbase5-private-dev libqt5svg5-dev automake autopoint gettext cmake wayland-protocols protobuf-compiler libmpg123-dev libgstreamer-plugins-base1.0-dev libsystemd-dev libarchive-dev libopencv-dev libavcodec-dev libavutil-dev libva-dev
+apt-get build-dep vlc --yes
 (
   git clone https://github.com/videolabs/libdsm.git
   cd libdsm
