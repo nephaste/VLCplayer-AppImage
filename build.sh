@@ -9,7 +9,7 @@ add-apt-repository ppa:jonathonf/ffmpeg-4 --yes
 add-apt-repository universe --yes
 apt-get update
 apt-get --yes dist-upgrade
-apt-get --yes install libsystemd-dev libarchive-dev curl build-essential autoconf libtool pkg-config patchelf  libtasn1-3-bin libbsd-dev git bison qtbase5-private-dev libqt5svg5-dev automake autopoint gettext cmake wayland-protocols protobuf-compiler libmpg123-dev libgstreamer-plugins-base1.0-dev libsystemd-dev libarchive-dev libopencv-dev libavcodec-dev libavutil-dev libva-dev
+apt-get --yes install libsystemd-dev libarchive-dev curl build-essential autoconf libtool pkg-config patchelf  libtasn1-3-bin libbsd-dev git bison qtbase5-private-dev libqt5svg5-dev automake autopoint gettext cmake wayland-protocols protobuf-compiler libmpg123-dev libgstreamer-plugins-base1.0-dev libsystemd-dev libarchive-dev libopencv-dev libavcodec-dev libavutil-dev libva-dev liba52-0.7.4-dev libxcb-shm0-dev libxcb-composite0-ibavcodec-dev libavutil-dev libva-dev liba52-0.7.4-dev libxcb-shm0-dev  libxcb-composite0-site0-dev libxcb-xv0-dev lua5.2 liblua5.2-dev libclalsadrv-dev
 apt-get build-dep vlc --yes
 (
   git clone https://github.com/videolabs/libdsm.git
