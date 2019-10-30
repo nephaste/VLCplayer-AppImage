@@ -9,9 +9,7 @@ add-apt-repository ppa:jonathonf/ffmpeg-4
 add-apt-repository universe --yes
 apt-get update
 apt-get --yes dist-upgrade
-apt-get --yes install libsystemd-dev libarchive-dev curl build-essential autoconf libtool pkg-config patchelf libtasn1-3-dev libtasn1-3-bin libbsd-dev git bison qtbase5-private-dev libqt5svg5-dev automake autopoint gettext cmake wayland-protocols protobuf-compiler libmpg123-dev libgstreamer-plugins-base1.0-dev libsystemd-dev libarchive-dev libopencv-dev  lua5.2 liblua5.2-dev liblua5.1-luacsnd
-liblua5.1-0-dev liblua50-dev liblua5.3-dev liblua50 liblua5.2-0 liblua5.1-0 liblua5.3-0
-
+apt-get --yes install libsystemd-dev libarchive-dev curl build-essential autoconf libtool pkg-config patchelf libtasn1-3-dev libtasn1-3-bin libbsd-dev git bison qtbase5-private-dev libqt5svg5-dev automake autopoint gettext cmake wayland-protocols protobuf-compiler libmpg123-dev libgstreamer-plugins-base1.0-dev libsystemd-dev libarchive-dev libopencv-dev 
 apt-get build-dep vlc --yes
 
 (
@@ -35,7 +33,7 @@ apt-get build-dep vlc --yes
   wget http://download.videolan.org/pub/vlc/$VERSION/vlc-$VERSION.tar.xz
   tar xJf vlc-$VERSION.tar.xz
   cd vlc-$VERSION
-  ./configure --enable-chromecast=no --prefix=/usr
+  ./configure --enable-chromecast=no  --disable-lua --prefix=/usr
   make -j$(nproc)
   make -j$(nproc) DESTDIR=$(pwd)/build/ install
   chmod 755 -R ./vlc-$VERSION/build
