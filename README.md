@@ -6,9 +6,6 @@ Unofficial VLCplayer AppImage, VLC version build from source.
 ## Why?
 AppImage is a format for distributing portable software on Linux without needing superuser permissions to install the application  It tries also to allow Linux distribution-agnostic binary software deployment for application developers, also called Upstream packaging. Released first in 2004 under the name klik, it was continuously developed, then renamed in 2011 to PortableLinuxApps and later in 2013 to AppImage. [wikipedia](https://en.wikipedia.org/wiki/AppImage)
 
-## Credits
-This repo is mainly based on the work of [icflorescu](https://github.com/icflorescu/vlc-3-appimage), [Anupam Basak](https://github.com/anupam-git/vlc-appimage) and [darealshinji](https://github.com/darealshinji/vlc-AppImage).
-
 ## Download
 Download the AppImage from [here](https://github.com/cmatomic/VLCplayer-AppImage/releases/).
 
@@ -24,6 +21,10 @@ This AppImage has been tested on the following GNU / Linux distros.
 * #### Ubuntu Disco 19.04
 * #### Linuxmint 19.2 cinnamon-64bit
 * #### Manjaro-xfce 18.1.0 stable-x86_64
+
+
+## Credits
+This repo is mainly based on the work of [icflorescu](https://github.com/icflorescu/vlc-3-appimage), [Anupam Basak](https://github.com/anupam-git/vlc-appimage) and [darealshinji](https://github.com/darealshinji/vlc-AppImage).
 
 ## License
 
