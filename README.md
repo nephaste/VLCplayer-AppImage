@@ -17,10 +17,10 @@ As with most things you download from the Internet nowadays, you can't. But you 
 
 ## Compatibility
 This AppImage has been tested on the following GNU / Linux distros .
-Debian 10 buster
-Ubuntu xenial 16.04 
-Ubuntu Disco 19.04
-Linuxmint 19.2 cinnamon-64bit
+ Debian 10 buster,
+Ubuntu xenial 16.04,
+Ubuntu Disco 19.04,
+Linuxmint 19.2 cinnamon-64bit,
 Manjaro-xfce 18.1.0 stable-x86_64
 
 
