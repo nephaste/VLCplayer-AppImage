@@ -1,16 +1,16 @@
-# VLC-3-AppImage
+# VLCplayer-AppImage
 ![VLC](https://user-images.githubusercontent.com/581999/41001881-e33ecc94-691a-11e8-8974-5fcdfcb42f89.jpg)
 
-A repository for building a VLC 3.0.3 AppImage on [Travis CI](https://travis-ci.org/).
+Unofficial VLCplayer AppImage, VLC version build from source.
 
 ## Why?
-Because most distros are yet to upgrade their repositories to the latest VLC version.
+AppImage is a format for distributing portable software on Linux without needing superuser permissions to install the application.[1] It tries also to allow Linux distribution-agnostic binary software deployment for application developers,[2] also called Upstream packaging. Released first in 2004 under the name klik, it was continuously developed, then renamed in 2011 to PortableLinuxApps and later in 2013 to AppImage.
 
 ## Credits
-This repo is mainly based on the work of [Anupam Basak](https://github.com/anupam-git/vlc-appimage) and [darealshinji](https://github.com/darealshinji/vlc-AppImage).
+This repo is mainly based on the work of[icflorescu](https://github.com/icflorescu/vlc-3-appimage), [Anupam Basak](https://github.com/anupam-git/vlc-appimage) and [darealshinji](https://github.com/darealshinji/vlc-AppImage).
 
 ## Download
-Download the AppImage from [here](https://github.com/icflorescu/vlc-3-appimage/releases/).
+Download the AppImage from [here](https://github.com/cmatomic/VLCplayer-AppImage/releases/).
 
 ## How do I know it's safe?
 As with most things you download from the Internet nowadays, you can't. But you can inspect the source code, improve it, decide for yourself whether to download the AppImage from the link above or create your own fork.
