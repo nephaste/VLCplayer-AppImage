@@ -16,8 +16,8 @@ Download the AppImage from [here](https://github.com/cmatomic/VLCplayer-AppImage
 As with most things you download from the Internet nowadays, you can't. But you can inspect the source code, improve it, decide for yourself whether to download the AppImage from the link above or create your own fork.
 
 ## Compatibility
-This AppImage has been tested on the following GNU / Linux distros .
- Debian 10 buster,
+This AppImage has been tested on the following GNU / Linux distros.
+Debian 10 buster,
 Ubuntu xenial 16.04,
 Ubuntu Disco 19.04,
 Linuxmint 19.2 cinnamon-64bit,
