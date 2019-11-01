@@ -31,15 +31,6 @@ apt-get --yes install curl build-essential autoconf libtool pkg-config patchelf 
 )
 
 (
-  git clone https://code.videolan.org/videolan/libaacs.git
-  cd libaacs
-  ./bootstrap
-  ./configure --prefix=/usr
-  make -j$(nproc)
-  make -j$(nproc) install
-)
-
-(
   wget http://download.videolan.org/pub/vlc/$VERSION/vlc-$VERSION.tar.xz
   tar xJf vlc-$VERSION.tar.xz
   cd vlc-$VERSION
