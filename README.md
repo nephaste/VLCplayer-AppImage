@@ -37,9 +37,9 @@ https://www.makemkv.com/forum/viewtopic.php?f=3&t=7009
 ## Hardware video acceleration
 
 * Arch wiki https://wiki.archlinux.org/index.php/Hardware_video_acceleration
-NVIDIA "vdpau" (mesa-vdpau-drivers;libvdpau)
-intel  "vaapi"(libva )
-AMD    "vaapi" and "vdpau"
+* NVIDIA "vdpau" (mesa-vdpau-drivers;libvdpau)
+* intel  "vaapi"(libva )
+* AMD    "vaapi" and "vdpau"
 
 
 
