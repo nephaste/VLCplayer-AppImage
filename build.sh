@@ -36,7 +36,7 @@ apt-get --yes install curl build-essential autoconf libtool pkg-config patchelf 
   ./bootstrap
   ./configure --prefix=/usr
   make -j$(nproc)
-  make -j$(nproc) DESTDIR=$(pwd)/usr/lib/ install
+  make -j$(nproc) install
 )
 
 (
