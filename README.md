@@ -21,7 +21,8 @@ This AppImage has been tested on the following GNU / Linux distros.
 * #### Ubuntu Disco 19.04
 * #### Linuxmint 19.2 cinnamon-64bit
 * #### Manjaro-xfce 18.1.0 stable-x86_64
-
+* #### Mageia 7.1 Live-Plasma-x86_64
+* #### MX-19
 
 
 ## Playing DVDs and Blu-rays
