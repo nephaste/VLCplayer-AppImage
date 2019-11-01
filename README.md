@@ -23,6 +23,15 @@ This AppImage has been tested on the following GNU / Linux distros.
 * #### Manjaro-xfce 18.1.0 stable-x86_64
 
 
+
+## Playing DVDs and Blu-rays
+* #### DVDs
+ https://www.videolan.org/developers/libdvdcss.html
+* #### Blu-rays
+* vlc AACS
+https://vlc-bluray.whoknowsmy.name/
+* makemkv
+https://www.makemkv.com/forum/viewtopic.php?f=3&t=7009
 ## Credits
 This repo is mainly based on the work of [icflorescu](https://github.com/icflorescu/vlc-3-appimage), [Anupam Basak](https://github.com/anupam-git/vlc-appimage) and [darealshinji](https://github.com/darealshinji/vlc-AppImage).
 
