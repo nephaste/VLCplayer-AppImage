@@ -1,7 +1,7 @@
 # VLCplayer-AppImage
 ![VLC](https://user-images.githubusercontent.com/581999/41001881-e33ecc94-691a-11e8-8974-5fcdfcb42f89.jpg)
 
-Unofficial VLCplayer AppImage, VLC version build from source.
+Unofficial VLCplayer AppImage, VLC version (3.0.8) build from source.
 
 ## Why?
 AppImage is a format for distributing portable software on Linux without needing superuser permissions to install the application  It tries also to allow Linux distribution-agnostic binary software deployment for application developers, also called Upstream packaging. Released first in 2004 under the name klik, it was continuously developed, then renamed in 2011 to PortableLinuxApps and later in 2013 to AppImage. [wikipedia](https://en.wikipedia.org/wiki/AppImage)
