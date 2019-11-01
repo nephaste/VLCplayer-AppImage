@@ -32,6 +32,19 @@ This AppImage has been tested on the following GNU / Linux distros.
 https://vlc-bluray.whoknowsmy.name/
 * makemkv
 https://www.makemkv.com/forum/viewtopic.php?f=3&t=7009
+
+
+## Hardware video acceleration
+
+* Arch wiki https://wiki.archlinux.org/index.php/Hardware_video_acceleration
+NVIDIA "vdpau" (mesa-vdpau-drivers;libvdpau)
+intel  "vaapi"(libva )
+AMD    "vaapi" and "vdpau"
+
+
+
+
+
 ## Credits
 This repo is mainly based on the work of [icflorescu](https://github.com/icflorescu/vlc-3-appimage), [Anupam Basak](https://github.com/anupam-git/vlc-appimage) and [darealshinji](https://github.com/darealshinji/vlc-AppImage).
 
