@@ -28,10 +28,11 @@ This AppImage has been tested on the following GNU / Linux distros.
 ## Playing DVDs and Blu-rays
 * #### DVDs
  https://www.videolan.org/developers/libdvdcss.html
-* #### Blu-rays
-* vlc AACS
+*#### Blu-rays
+*#### vlc AACS ( install libaacs on your distro )
 https://vlc-bluray.whoknowsmy.name/
-* makemkv
+
+*### alternative install makemkv
 https://www.makemkv.com/forum/viewtopic.php?f=3&t=7009
 
 
@@ -42,9 +43,28 @@ https://www.makemkv.com/forum/viewtopic.php?f=3&t=7009
 * intel  "vaapi"(libva )
 * AMD    "vaapi" and "vdpau"
 
-
-
-
+## features not activated
+* chromecast:"protobuf" bug in gnutls-bin, preventing it from working correctly (during the build the binary was segfaulting)on Ubuntu xenial https://trac.videolan.org/vlc/ticket/18329
+* crystalhd: unusble without firmware (#934242)
+* d3d11va: Windows only
+* decklink: not in Debian/Ubuntu xenial
+* directx: Windows only
+* dxva2: Windows only
+* fluidlite: fluidsynth is enabled
+* freerdp: scheduled for removal (#888323)
+* goom: not in Debian/Ubuntu xenial
+* gst-decode: not needed when having libavcodec
+* libtar: security issue (#737534)
+* macosx : MacOX only
+* mfx: currently not supported on Linux
+* opencv: developer plugin not required by end users
+* projectm: broken
+* schroedinger: removed from Debian (#845037)
+* sparkle: MacOS X only
+* telx: incompatible with zvbi
+* vpx: not needed when having libavcodec
+* vsxu: not in Debian/Ubuntu xenial
+* wasapi: Windows only
 
 ## Credits
 This repo is mainly based on the work of [icflorescu](https://github.com/icflorescu/vlc-3-appimage), [Anupam Basak](https://github.com/anupam-git/vlc-appimage) and [darealshinji](https://github.com/darealshinji/vlc-AppImage).
