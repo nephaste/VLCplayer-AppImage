@@ -26,13 +26,13 @@ This AppImage has been tested on the following GNU / Linux distros.
 
 
 ## Playing DVDs and Blu-rays
-* #### DVDs https://www.videolan.org/developers/libdvdcss.html
+*  DVDs https://www.videolan.org/developers/libdvdcss.html
 
-* #### Blu-rays
+* Blu-rays
 
-* #### vlc AACS ( install libaacs on your distro ) https://vlc-bluray.whoknowsmy.name/
+* vlc AACS ( install libaacs on your distro ) https://vlc-bluray.whoknowsmy.name/
 
-* ### alternative install makemkv https://www.makemkv.com/forum/viewtopic.php?f=3&t=7009
+*  alternative install makemkv https://www.makemkv.com/forum/viewtopic.php?f=3&t=7009
 
 
 ## Hardware video acceleration
