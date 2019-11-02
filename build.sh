@@ -66,7 +66,7 @@ cp ./VLC_media_player*.AppImage release/
 md5sum ./VLC_media_player*.AppImage > release/MD5.txt
 
 # Reasons for disabling features:
-# chromecast:"protobuf" bug in gnutls-bin, preventing it from working correctly (during the build the binary was segfaulting)on Ubuntu xenial
+# chromecast:(protobuf) bug in gnutls-bin, preventing it from working correctly (during the build the binary was segfaulting)on Ubuntu xenial
 # https://trac.videolan.org/vlc/ticket/18329
 # crystalhd: unusble without firmware (#934242)
 # d3d11va: Windows only
