@@ -58,7 +58,7 @@ This AppImage has been tested on the following GNU / Linux distros.
 * mfx: currently not supported on Linux
 * opencv: developer plugin not required by end users
 * projectm: broken
-* schroedinger: removed from Debian (#845037)
+* schroedinger: removed from Debian/Ubuntu xenial (#845037)
 * sparkle: MacOS X only
 * telx: incompatible with zvbi
 * vpx: not needed when having libavcodec
