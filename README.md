@@ -43,6 +43,7 @@ This AppImage has been tested on the following GNU / Linux distros.
 * AMD    "vaapi" and "vdpau"
 
 ## features not activated
+#### In the process of building Appimage it was not possible to integrate the following features
 * chromecast:"protobuf" bug in gnutls-bin, preventing it from working correctly (during the build the binary was segfaulting)on Ubuntu xenial https://trac.videolan.org/vlc/ticket/18329
 * crystalhd: unusble without firmware (#934242)
 * d3d11va: Windows only
