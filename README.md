@@ -1,6 +1,4 @@
 # VLCplayer-AppImage
-[![Build Status](https://travis-ci.org/cmatomic/VLCplayer-AppImage.svg?branch=master)](https://travis-ci.org/cmatomic/VLCplayer-AppImage)
-
 ![VLC](https://user-images.githubusercontent.com/581999/41001881-e33ecc94-691a-11e8-8974-5fcdfcb42f89.jpg)
 
 Unofficial VLCplayer AppImage, VLC version (3.0.8) build from source.
@@ -74,3 +72,7 @@ This repo is mainly based on the work of [icflorescu](https://github.com/icflore
 
 This repo is [ISC-Licensed](https://github.com/icflorescu/vlc-3-appimage/blob/master/LICENSE).
 Please refer to [this page](https://www.videolan.org/legal.html) for VLC-related licensing stuff.
+
+
+[![Build Status](https://travis-ci.org/cmatomic/VLCplayer-AppImage.svg?branch=master)](https://travis-ci.org/cmatomic/VLCplayer-AppImage)
+
