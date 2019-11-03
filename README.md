@@ -74,5 +74,5 @@ This repo is [ISC-Licensed](https://github.com/icflorescu/vlc-3-appimage/blob/ma
 Please refer to [this page](https://www.videolan.org/legal.html) for VLC-related licensing stuff.
 
 
-[![Build Status](https://travis-ci.org/cmatomic/VLCplayer-AppImage.svg?branch=master)](https://travis-ci.org/cmatomic/VLCplayer-AppImage)
 
+[![Build Status](https://travis-ci.org/cmatomic/VLCplayer-AppImage.svg?branch=master)](https://travis-ci.org/cmatomic/VLCplayer-AppImage)
