@@ -23,6 +23,7 @@ This AppImage has been tested on the following GNU / Linux distros.
 * #### Manjaro-xfce 18.1.0 stable-x86_64
 * #### Mageia 7.1 Live-Plasma-x86_64
 * #### MX-19
+* #### KaOS-2019.10-x86_64
 
 
 ## Playing DVDs and Blu-rays
