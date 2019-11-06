@@ -15,15 +15,17 @@ As with most things you download from the Internet nowadays, you can't. But you 
 ## Compatibility
 This AppImage has been tested on the following GNU / Linux distros.
 * #### Debian 10 buster
+* #### Fedora 31-1.9 Live x86_64
 * #### OpenSUSE-Leap 15.1 KDE Live-x86_64
 * #### Ubuntu xenial 16.04
 * #### Ubuntu Bionic 18.04
 * #### Ubuntu Disco 19.04
 * #### Linuxmint 19.2 cinnamon-64bit
-* #### Manjaro-xfce 18.1.0 stable-x86_64
+* #### Manjaro-xfce 18.1.0 stable-x86_64/18.1.2-linux53
 * #### Mageia 7.1 Live-Plasma-x86_64
 * #### MX-19
 * #### KaOS-2019.10-x86_64
+* #### Solus-4.0-Budgie
 
 
 ## Playing DVDs and Blu-rays
